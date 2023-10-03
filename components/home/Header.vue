@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(/car.jpg) 50% / cover no-repeat;
+  background: url(/car.webp) 50% / cover no-repeat;
   filter: brightness(0.4);
 }
 .btn {

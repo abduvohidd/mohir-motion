@@ -152,9 +152,9 @@ onBeforeUnmount(() => {
 
 .banner {
   position: absolute;
-  top: 0%;
-  left: 40%;
-  /* transform: translate(-50%, 15%); */
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
 }
 .banner h1 {
   animation: moveBanner 0.5s forwards;

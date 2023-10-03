@@ -1,9 +1,13 @@
+<script></script>
+
 <template>
   <div class="logo">
     <div class="container">
       <div class="flex items-center justify-center flex-col">
-        <h1 class="md:text-[40px] text-[30px] text-center mt-4 mb-[10px]">
-          LOGO DIZAYN
+        <h1
+          class="md:text-[40px] text-center text-[24px] mt-4 md:mb-[30px] mb-[10px]"
+        >
+          POST ANIMATSIYA
         </h1>
 
         <div
@@ -15,7 +19,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              200$
+              1 sekund 10$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -23,49 +27,12 @@
               BASIC
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
-              <li>Logo ma'nosini tushuntirish</li>
-              <li>2 tagacha variant qilib beriladi.</li>
-              <li>Orqa fonsiz (.PNG) formatda topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
-            </ul>
-
-            <div
-              class="p-4 bg-white w-full flex justify-center items-center rounded-bl-lg rounded-br-lg"
-            >
-              <button
-                type="button"
-                class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
-              >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
-              </button>
-            </div>
-          </div>
-          <div
-            class="flex flex-col items-center group justify-center lg:w-[33.3%] md:w-[50%] w-full"
-          >
-            <div
-              class="bg-black text-white w-full group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
-            >
-              300$
-            </div>
-            <div
-              class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
-            >
-              INTERMEDIATE
-            </div>
-            <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
-            >
-              <li>Logo ma'nosini tushuntirish</li>
-              <li>3 tagacha variant qilib beriladi.</li>
               <li>
-                Har xil holatdagi maketlarga logo qo'yib ko'rsatiladi. (Mockup)
+                Tayyor post dizayn tashlab beriladi va animatsiya qilinadi.
               </li>
-              <li>Orqa fonsiz (.PNG) formatda topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
-              <li>Motion</li>
+              <li>HD va sizga yoqgan ranglarni ishlatiladi.</li>
             </ul>
 
             <div
@@ -79,13 +46,14 @@
               </button>
             </div>
           </div>
+
           <div
             class="flex flex-col group items-center justify-center lg:w-[33.3%] md:w-[50%] w-full"
           >
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              500$
+              1 sekund 20$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -93,17 +61,11 @@
               PRO
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
-              <li>Brand book</li>
-              <li>Logo ma'nosini tushuntirish.</li>
-              <li>3 tagacha variant qilib beriladi.</li>
-              <li>
-                Har xil holatdagi maketlarga logo qo'yib ko'rsatiladi. (Mockup)
-              </li>
-              <li>Logoning barcha formatlari topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
-              <li>Instagram reels bilan kalabratsiya</li>
+              <li>Post dizayni noldan tayyorlanadi.</li>
+              <li>4K sifatda tayyorlanadi.</li>
+              <li>Qo'shimcha bonus.</li>
             </ul>
 
             <div
@@ -122,8 +84,6 @@
     </div>
   </div>
 </template>
-
-<script></script>
 
 <style scoped>
 .logo {

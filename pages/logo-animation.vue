@@ -1,12 +1,12 @@
 <template>
   <div>
-    <LogoDesign />
+    <LogoAnimation />
   </div>
 </template>
 
 <script setup>
 definePageMeta({ layout: "home-layout" });
-import LogoDesign from "~/components/logo-design/LogoDesign.vue";
+import LogoAnimation from "~/components/logo-design/LogoAnimation.vue";
 </script>
 
 <style></style>

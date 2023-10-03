@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   //     ["defineStore", "definePiniaStore"], // import { defineStore as definePiniaStore } from 'pinia'
   //   ],
   // },
+
   postcss: {
     plugins: {
       tailwindcss: {},

@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/nuxt/dist/app/entry.js": {
+  "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/nuxt/dist/app/entry.js"
+    "file": "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/app/entry.js"
   }
 }

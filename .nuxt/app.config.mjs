@@ -1,5 +1,5 @@
 
-import { defuFn } from 'C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/defu/dist/defu.mjs'
+import { defuFn } from 'C:/Users/tonny/Documents/mohir/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

@@ -31,7 +31,7 @@ export default {
         <div class="flex flex-col items-center justify-center gap-8">
           <NuxtLink
             to="/logo-design"
-            class="flex gap-2 logo group hover:bg-slate-600 cursor-pointer"
+            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Logo Dizayn</h4>
             <svg
@@ -46,9 +46,10 @@ export default {
               />
             </svg>
           </NuxtLink>
+
           <NuxtLink
-            to="/"
-            class="flex gap-2 logo group hover:bg-slate-600 cursor-pointer"
+            to="/logo-animation"
+            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Logo Animatsiya</h4>
             <svg
@@ -63,9 +64,10 @@ export default {
               />
             </svg>
           </NuxtLink>
+
           <NuxtLink
-            to="/"
-            class="flex gap-2 logo group hover:bg-slate-600 cursor-pointer"
+            to="/post-animation"
+            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Post Animatsiya</h4>
             <svg
@@ -80,9 +82,10 @@ export default {
               />
             </svg>
           </NuxtLink>
+
           <NuxtLink
-            to="/"
-            class="flex gap-2 logo group hover:bg-slate-600 cursor-pointer"
+            to="/after-effect"
+            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">After Effects Template</h4>
             <svg
@@ -103,7 +106,7 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .title {
   margin: 20px 0 50px;
 }
@@ -118,7 +121,6 @@ export default {
   color: #fff;
   text-transform: capitalize;
   padding: 1rem 2.5rem;
-  background: rgba(0, 0, 0, 0.5);
   transition-property: all;
   transition-duration: 0.25s;
   transition-timing-function: ease-in-out;
@@ -126,7 +128,7 @@ export default {
 .service {
   min-height: 100vh;
   position: relative;
-  padding: 7.5rem 0 2.5rem;
+  padding: 2.5rem 0 2.5rem;
   margin: 0;
   --x: calc(var(--posX, 0) * 1px);
   --y: calc(var(--posY, 0) * 1px);

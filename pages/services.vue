@@ -1,8 +1,6 @@
 <template>
   <Head>
     <Title>Mohir Motion</Title>
-    <!-- <Meta name="description" :content="$t('Service.title')" /> -->
-    <!-- <Meta name="description" :content="$t('Service.description')" /> -->
   </Head>
   <div>
     <Service />

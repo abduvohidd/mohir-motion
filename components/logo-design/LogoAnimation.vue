@@ -1,13 +1,15 @@
+<script></script>
+
 <template>
   <div class="logo">
     <div class="container">
       <div class="flex items-center justify-center flex-col">
-        <h1 class="md:text-[40px] text-[30px] text-center mt-4 mb-[10px]">
-          LOGO DIZAYN
+        <h1 class="md:text-[40px] text-center text-[25px] mt-4 mb-[10px]">
+          LOGO ANIMATSIYA
         </h1>
 
         <div
-          class="lg:w-[80%] flex lg:flex-row flex-col w-full justify-center items-center gap-6 mb-8"
+          class="lg:w-[80%] flex lg:flex-row flex-col w-full justify-center items-center gap-6 mb-12"
         >
           <div
             class="flex flex-col group items-center justify-center lg:w-[33.3%] md:w-[50%] w-full"
@@ -15,7 +17,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              200$
+              100$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -25,10 +27,10 @@
             <ul
               class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
-              <li>Logo ma'nosini tushuntirish</li>
-              <li>2 tagacha variant qilib beriladi.</li>
-              <li>Orqa fonsiz (.PNG) formatda topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
+              <li>Bitta asosiy animatsiya.</li>
+              <li>Animatsion video .MP4 formatda topshiriladi.</li>
+              <li>Animatsion video sifati HD formatda bo'ladi.</li>
+              <li>Sound fx</li>
             </ul>
 
             <div
@@ -48,7 +50,7 @@
             <div
               class="bg-black text-white w-full group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              300$
+              200$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -58,14 +60,11 @@
             <ul
               class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
-              <li>Logo ma'nosini tushuntirish</li>
-              <li>3 tagacha variant qilib beriladi.</li>
-              <li>
-                Har xil holatdagi maketlarga logo qo'yib ko'rsatiladi. (Mockup)
-              </li>
-              <li>Orqa fonsiz (.PNG) formatda topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
-              <li>Motion</li>
+              <li>Bitta o'rtacha animatsiya.</li>
+              <li>Animatsion video .MP4 / .MOV formatda topshiriladi.</li>
+              <li>Animatsion video sifati 2k / 4k formatda bo'ladi.</li>
+              <li>Sound fx / orqa fon musiqasi.</li>
+              <li>Shaffof (orqa fonsiz).</li>
             </ul>
 
             <div
@@ -85,7 +84,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              500$
+              300$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -95,15 +94,13 @@
             <ul
               class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
-              <li>Brand book</li>
-              <li>Logo ma'nosini tushuntirish.</li>
-              <li>3 tagacha variant qilib beriladi.</li>
+              <li>Bitta Pro darajadagi animatsiya.</li>
               <li>
-                Har xil holatdagi maketlarga logo qo'yib ko'rsatiladi. (Mockup)
+                Animatsion video .MP4 / .MOV / .GIF formatda topshiriladi.
               </li>
-              <li>Logoning barcha formatlari topshiriladi.</li>
-              <li>Rang shrift o'zgartirib berish.</li>
-              <li>Instagram reels bilan kalabratsiya</li>
+              <li>Animatsion video sifati 4k formatda topshiriladi.</li>
+              <li>Shaffof (orqa fonsiz).</li>
+              <li>Sound fx - orqa fon musiqasi</li>
             </ul>
 
             <div
@@ -122,8 +119,6 @@
     </div>
   </div>
 </template>
-
-<script></script>
 
 <style scoped>
 .logo {

@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
-    "baseUrl": "C:/Users/tonny/Documents/Tuts/mohir-motion",
+    "baseUrl": "C:/Users/tonny/Documents/mohir",
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -18,91 +18,91 @@
     ],
     "paths": {
       "~": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion"
+        "C:/Users/tonny/Documents/mohir"
       ],
       "~/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/*"
+        "C:/Users/tonny/Documents/mohir/*"
       ],
       "@": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion"
+        "C:/Users/tonny/Documents/mohir"
       ],
       "@/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/*"
+        "C:/Users/tonny/Documents/mohir/*"
       ],
       "~~": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion"
+        "C:/Users/tonny/Documents/mohir"
       ],
       "~~/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/*"
+        "C:/Users/tonny/Documents/mohir/*"
       ],
       "@@": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion"
+        "C:/Users/tonny/Documents/mohir"
       ],
       "@@/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/*"
+        "C:/Users/tonny/Documents/mohir/*"
       ],
       "assets": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/assets"
+        "C:/Users/tonny/Documents/mohir/assets"
       ],
       "assets/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/assets/*"
+        "C:/Users/tonny/Documents/mohir/assets/*"
       ],
       "public": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/public"
+        "C:/Users/tonny/Documents/mohir/public"
       ],
       "public/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/public/*"
+        "C:/Users/tonny/Documents/mohir/public/*"
       ],
       "#app": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/nuxt/dist/app"
+        "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/nuxt/dist/app/*"
+        "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/nuxt/dist/app/compat/vue-demi"
+        "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "vue-i18n": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/vue-i18n/dist/vue-i18n"
+        "C:/Users/tonny/Documents/mohir/node_modules/vue-i18n/dist/vue-i18n"
       ],
       "@intlify/shared": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@intlify/shared/dist/shared"
+        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/shared/dist/shared"
       ],
       "@intlify/vue-router-bridge": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@intlify/vue-router-bridge/lib/index"
+        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/vue-router-bridge/lib/index"
       ],
       "@intlify/vue-i18n-bridge": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@intlify/vue-i18n-bridge/lib/index"
+        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/vue-i18n-bridge/lib/index"
       ],
       "vue-i18n-routing": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/vue-i18n-routing/dist/vue-i18n-routing"
+        "C:/Users/tonny/Documents/mohir/node_modules/vue-i18n-routing/dist/vue-i18n-routing"
       ],
       "#i18n": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@nuxtjs/i18n/dist/runtime/composables"
+        "C:/Users/tonny/Documents/mohir/node_modules/@nuxtjs/i18n/dist/runtime/composables"
       ],
       "#image": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@nuxt/image-edge/dist/runtime"
+        "C:/Users/tonny/Documents/mohir/node_modules/@nuxt/image-edge/dist/runtime"
       ],
       "#image/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/@nuxt/image-edge/dist/runtime/*"
+        "C:/Users/tonny/Documents/mohir/node_modules/@nuxt/image-edge/dist/runtime/*"
       ],
       "pinia": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/node_modules/pinia/dist/pinia"
+        "C:/Users/tonny/Documents/mohir/node_modules/pinia/dist/pinia"
       ],
       "#vue-router": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/.nuxt/vue-router"
+        "C:/Users/tonny/Documents/mohir/.nuxt/vue-router"
       ],
       "#imports": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/.nuxt/imports"
+        "C:/Users/tonny/Documents/mohir/.nuxt/imports"
       ],
       "#build": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/.nuxt"
+        "C:/Users/tonny/Documents/mohir/.nuxt"
       ],
       "#build/*": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/.nuxt/*"
+        "C:/Users/tonny/Documents/mohir/.nuxt/*"
       ],
       "#components": [
-        "C:/Users/tonny/Documents/Tuts/mohir-motion/.nuxt/components"
+        "C:/Users/tonny/Documents/mohir/.nuxt/components"
       ]
     }
   },

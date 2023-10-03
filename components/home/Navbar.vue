@@ -13,7 +13,7 @@ const isSelect = (num) => {
       <div class="justify-between items-center h-[4.375rem] md:flex hidden">
         <div>
           <Nuxt-link to="/" class="cursor-pointer">
-            <h1 class="text-white">Mohir</h1>
+            <img src="/mohir-logo.svg" alt="not found logo" class="w-32 h-24" />
           </Nuxt-link>
         </div>
 

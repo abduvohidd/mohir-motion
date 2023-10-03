@@ -1,34 +1,26 @@
-<script>
-export default {
-  mounted() {
-    document
-      .querySelector(".service")
-      .addEventListener("mousemove", this.handleMouseMove);
-  },
-  methods: {
-    handleMouseMove(event) {
-      const { clientX, clientY } = event;
-      const posX = clientX;
-      const posY = clientY;
-      document.querySelector(".service").style.setProperty("--posX", posX);
-      document.querySelector(".service").style.setProperty("--posY", posY);
-    },
-  },
-  beforeDestroy() {
-    document
-      .querySelector(".service")
-      .removeEventListener("mousemove", this.handleMouseMove);
-  },
+<script setup>
+const handleMouseMove = (event) => {
+  const { clientX, clientY } = event;
+  const posX = clientX;
+  const posY = clientY;
+  document.querySelector(".service").style.setProperty("--posX", posX);
+  document.querySelector(".service").style.setProperty("--posY", posY);
 };
+
+onBeforeUnmount(() => {
+  document
+    .querySelector(".service")
+    .removeEventListener("mousemove", handleMouseMove);
+});
 </script>
 
 <template>
-  <div class="service">
-    <div class="container">
-      <div class="flex items-center justify-center flex-col">
+  <div class="service" @mousemove="handleMouseMove">
+    <div class="container relative">
+      <div class="flex banner items-center justify-center flex-col">
         <h1 class="text-[42px] text-white title">Xizmatlarimiz</h1>
 
-        <div class="flex flex-col items-center justify-center gap-8">
+        <div class="flex card flex-col items-center justify-center gap-8">
           <NuxtLink
             to="/logo-design"
             class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
@@ -156,5 +148,28 @@ export default {
     linear-gradient(60deg, red, #7856ff);
   background-blend-mode: overlay, overlay, difference, difference, difference,
     normal;
+}
+
+.banner {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  /* transform: translate(-50%, 15%); */
+}
+.banner h1 {
+  animation: moveBanner 0.5s forwards;
+}
+.banner .card {
+  animation: moveBanner 0.7s forwards;
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateY(20rem) rotateY(-60deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
 }
 </style>

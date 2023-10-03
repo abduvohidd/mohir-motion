@@ -32,14 +32,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  min-height: 56.25rem;
-  background: url(/bg.jpg) 50% / cover no-repeat;
+  background: url(/car.jpg) 50% / cover no-repeat;
   filter: brightness(0.4);
 }
 .btn {
   background: #fff;
   border-radius: 6.25rem;
-  /* font-family: "Gabarito", cursive; */
   font-family: "Montserrat", sans-serif;
   border: none;
   color: #000;

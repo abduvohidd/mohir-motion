@@ -1,13 +1,15 @@
+<script></script>
+
 <template>
   <div class="logo">
-    <div class="container">
-      <div class="flex items-center justify-center flex-col">
+    <div class="container relative">
+      <div class="flex banner items-center justify-center flex-col">
         <h1 class="md:text-[40px] text-[30px] text-center mt-4 mb-[10px]">
           LOGO DIZAYN
         </h1>
 
         <div
-          class="lg:w-[80%] flex lg:flex-row flex-col w-full justify-center items-center gap-6 mb-8"
+          class="lg:w-[80%] card flex lg:flex-row flex-col w-full justify-center items-center gap-6 mb-8"
         >
           <div
             class="flex flex-col group items-center justify-center lg:w-[33.3%] md:w-[50%] w-full"
@@ -123,8 +125,6 @@
   </div>
 </template>
 
-<script></script>
-
 <style scoped>
 .logo {
   width: 100%;
@@ -135,7 +135,24 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image: url(/bg-gradient-1.webp);
-  border-radius: 0 !important;
+  border-radius: 0;
   color: #fff;
+}
+
+.banner h1 {
+  animation: moveBanner 0.5s forwards;
+}
+.banner .card {
+  animation: moveBanner 0.7s forwards;
+}
+
+@keyframes moveBanner {
+  0% {
+    transform: translateY(20rem) rotateY(-60deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
 }
 </style>

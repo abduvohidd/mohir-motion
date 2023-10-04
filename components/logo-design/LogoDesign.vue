@@ -4,7 +4,7 @@
   <div class="logo">
     <div class="container relative">
       <div class="flex banner items-center justify-center flex-col">
-        <h1 class="md:text-[40px] text-[30px] text-center mt-4 mb-[10px]">
+        <h1 class="md:text-[40px] text-[30px] text-center mt-8 mb-[20px]">
           LOGO DIZAYN
         </h1>
 
@@ -17,7 +17,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              200$
+              100$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -50,7 +50,7 @@
             <div
               class="bg-black text-white w-full group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              300$
+              150$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -87,7 +87,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              500$
+              200$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"

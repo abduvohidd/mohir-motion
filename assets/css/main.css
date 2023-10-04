@@ -1,6 +1,7 @@
 @import "vue-skeletor/dist/vue-skeletor.css";
 @import "vue3-toastify/dist/index.css";
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +9,10 @@
 * {
   font-family: "Josefin Sans", sans-serif;
   scroll-behavior: smooth;
+}
+
+.router-link-active {
+  color: white;
 }
 
 .slide-fade-enter-active {

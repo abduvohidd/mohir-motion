@@ -1,10 +1,6 @@
 <script setup>
 const menuOpen = ref(false);
-const isActive = ref("1");
-
-const isSelect = (num) => {
-  isActive.value = num;
-};
+const isActive = ref(1);
 </script>
 
 <template>
@@ -18,19 +14,9 @@ const isSelect = (num) => {
         </div>
 
         <div class="flex gap-4 text-[hsla(0,0%,100%,.5)]">
-          <Nuxt-link
-            to="/"
-            @click="isSelect('1')"
-            class="cursor-pointer"
-            :class="{ active: isActive === '1' }"
-            >Asosiy Bo'lim
-          </Nuxt-link>
+          <Nuxt-link to="/" class="cursor-pointer">Asosiy Bo'lim </Nuxt-link>
 
-          <Nuxt-link
-            to="/services"
-            @click="isSelect('2')"
-            class="cursor-pointer"
-            :class="{ active: isActive === '2' }"
+          <Nuxt-link to="/services" class="cursor-pointer"
             >Xizmatlarimiz
           </Nuxt-link>
         </div>
@@ -57,23 +43,13 @@ const isSelect = (num) => {
           class="navlistitem text-[hsla(0,0%,100%,.5)]"
           @click="menuOpen = false"
         >
-          <Nuxt-link
-            to="/"
-            @click="isSelect('1')"
-            class="cursor-pointer"
-            :class="{ active: isActive === '1' }"
-            >Asosiy Bo'lim
-          </Nuxt-link>
+          <Nuxt-link to="/" class="cursor-pointer">Asosiy Bo'lim </Nuxt-link>
         </li>
         <li
           class="navlistitem text-[hsla(0,0%,100%,.5)]"
           @click="menuOpen = false"
         >
-          <Nuxt-link
-            to="/services"
-            @click="isSelect('2')"
-            class="cursor-pointer"
-            :class="{ active: isActive === '2' }"
+          <Nuxt-link to="/services" class="cursor-pointer"
             >Xizmatlarimiz
           </Nuxt-link>
         </li>

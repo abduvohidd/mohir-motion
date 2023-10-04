@@ -4,7 +4,7 @@
   <div class="logo">
     <div class="container relative">
       <div class="flex banner items-center justify-center flex-col">
-        <h1 class="md:text-[40px] text-center text-[25px] mt-4 mb-[10px]">
+        <h1 class="md:text-[40px] text-center text-[25px] mt-8 mb-[20px]">
           LOGO ANIMATSIYA
         </h1>
 
@@ -17,7 +17,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              100$
+              1 sekund 5$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -25,7 +25,7 @@
               BASIC
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Bitta asosiy animatsiya.</li>
               <li>Animatsion video .MP4 formatda topshiriladi.</li>
@@ -50,7 +50,7 @@
             <div
               class="bg-black text-white w-full group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              200$
+              1 sekund 10$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -58,7 +58,7 @@
               INTERMEDIATE
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Bitta o'rtacha animatsiya.</li>
               <li>Animatsion video .MP4 / .MOV formatda topshiriladi.</li>
@@ -84,7 +84,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              300$
+              1 sekund 15$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -92,7 +92,7 @@
               PRO
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Bitta Pro darajadagi animatsiya.</li>
               <li>

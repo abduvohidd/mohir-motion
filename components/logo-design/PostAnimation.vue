@@ -5,7 +5,7 @@
     <div class="container relative">
       <div class="flex banner items-center justify-center flex-col">
         <h1
-          class="md:text-[40px] text-center text-[24px] mt-4 md:mb-[30px] mb-[10px]"
+          class="md:text-[40px] text-center text-[24px] mt-8 md:mb-[30px] mb-[10px]"
         >
           POST ANIMATSIYA
         </h1>
@@ -19,7 +19,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              1 sekund 10$
+              1 sekund 5$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"
@@ -53,7 +53,7 @@
             <div
               class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              1 sekund 20$
+              1 sekund 10$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"

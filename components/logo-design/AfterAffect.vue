@@ -103,10 +103,10 @@
 }
 
 .banner h1 {
-  animation: moveBanner 0.5s forwards;
+  animation: moveBanner 0.7s forwards;
 }
 .banner .card {
-  animation: moveBanner 0.7s forwards;
+  animation: moveBanner 1s forwards;
 }
 
 @keyframes moveBanner {

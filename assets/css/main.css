@@ -11,6 +11,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background: #1a1a1a;
+}
+
 .router-link-active {
   color: white;
 }

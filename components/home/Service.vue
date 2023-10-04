@@ -148,6 +148,7 @@ onBeforeUnmount(() => {
     linear-gradient(60deg, red, #7856ff);
   background-blend-mode: overlay, overlay, difference, difference, difference,
     normal;
+  animation: bg 1s forwards;
 }
 
 .banner {
@@ -157,15 +158,26 @@ onBeforeUnmount(() => {
   transform: translate(-50%);
 }
 .banner h1 {
-  animation: moveBanner 0.5s forwards;
+  animation: moveBanner 0.7s forwards;
 }
 .banner .card {
-  animation: moveBanner 0.7s forwards;
+  animation: moveBanner 1s forwards;
 }
 
 @keyframes moveBanner {
   0% {
+    opacity: 0;
     transform: translateY(20rem) rotateY(-60deg);
+  }
+
+  25% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.7;
   }
   100% {
     transform: translateY(0) rotateY(0);

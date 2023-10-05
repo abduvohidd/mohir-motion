@@ -9,7 +9,7 @@ const isActive = ref(1);
       <div class="justify-between items-center h-[4.375rem] md:flex hidden">
         <div>
           <Nuxt-link to="/" class="cursor-pointer">
-            <img src="/mohir-logo.svg" alt="not found logo" class="w-32 h-24" />
+            <img src="/mohir-l.svg" alt="not found logo" class="w-32 h-24" />
           </Nuxt-link>
         </div>
 
@@ -25,7 +25,7 @@ const isActive = ref(1);
       <div class="md:hidden flex items-center h-[4.375rem] justify-between">
         <div>
           <Nuxt-link to="/" class="cursor-pointer">
-            <img src="/mohir-logo.svg" alt="not found logo" class="w-[15rem]" />
+            <img src="/mohir-l.svg" alt="not found logo" class="w-[15rem]" />
           </Nuxt-link>
         </div>
         <div class="hamburger-wrap">

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="h-[100vh] flex justify-center items-center">
     <LogoAnimation />
   </div>
 </template>

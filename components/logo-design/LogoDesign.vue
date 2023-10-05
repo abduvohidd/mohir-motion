@@ -3,7 +3,7 @@
 <template>
   <div class="logo">
     <div class="container relative">
-      <div class="flex banner items-center justify-center flex-col">
+      <div class="flex banner items-center justify-center flex-col h-[100vh]">
         <h1 class="md:text-[40px] text-[30px] text-center mt-8 mb-[20px]">
           LOGO DIZAYN
         </h1>

@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n,a as o}from"./entry.c576d310.js";const s={},c=o("h1",null,"404 - Page Not Found",-1),r=o("p",null,"Sorry, the page you are looking for does not exist.",-1),a=[c,r];function _(d,l){return n(),t("div",null,a)}const u=e(s,[["render",_]]);export{u as default};

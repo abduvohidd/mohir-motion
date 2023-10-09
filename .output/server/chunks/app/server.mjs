@@ -356,7 +356,7 @@ const _routes = [
     meta: __nuxt_page_meta$5 || {},
     alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
     redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import('./_nuxt/after-effect-7815d9ef.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/after-effect-edde6ebc.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index",
@@ -364,7 +364,7 @@ const _routes = [
     meta: __nuxt_page_meta$4 || {},
     alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
     redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/index-cf61fa75.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-a2e917fe.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "logo-animation",
@@ -372,7 +372,7 @@ const _routes = [
     meta: __nuxt_page_meta$3 || {},
     alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
     redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import('./_nuxt/logo-animation-8c7517ed.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/logo-animation-9f8b3028.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "logo-design",
@@ -380,7 +380,15 @@ const _routes = [
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/logo-design-9001605a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/logo-design-602c73a2.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "not-found",
+    path: "/not-found",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/not-found-ed192978.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "post-animation",
@@ -388,7 +396,7 @@ const _routes = [
     meta: __nuxt_page_meta$1 || {},
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/post-animation-e9830c91.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/post-animation-d717470f.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "services",
@@ -396,12 +404,12 @@ const _routes = [
     meta: __nuxt_page_meta || {},
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/services-a93db967.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/services-672e2752.mjs').then((m) => m.default || m)
   }
 ];
+const appPageTransition = { "name": "page", "mode": "out-in" };
 const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [], "noscript": [] };
 const appLayoutTransition = false;
-const appPageTransition = false;
 const appKeepalive = false;
 const routerOptions0 = {
   scrollBehavior(to, from, savedPosition) {
@@ -3611,8 +3619,7 @@ const _wrapIf = (component, props, slots) => {
   } };
 };
 const layouts = {
-  "default-layout": /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/defaultLayout-84324f46.mjs').then((m) => m.default || m)),
-  "home-layout": /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/homeLayout-e393eada.mjs').then((m) => m.default || m))
+  "home-layout": /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/homeLayout-8eacd35d.mjs').then((m) => m.default || m))
 };
 const LayoutMetaSymbol = Symbol("layout-meta");
 const __nuxt_component_0 = /* @__PURE__ */ defineComponent({
@@ -3821,7 +3828,7 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
 const _sfc_setup$2 = _sfc_main$2.setup;
 _sfc_main$2.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt/dist/pages/runtime/app.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("app.vue");
   return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
 };
 const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
@@ -3846,7 +3853,7 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-16b23716.mjs').then((r) => r.default || r));
+    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-f56c08ac.mjs').then((r) => r.default || r));
     const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-6b96234e.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
@@ -3932,5 +3939,5 @@ let entry;
 }
 const entry$1 = (ctx) => entry(ctx);
 
-export { _export_sfc as _, useState as a, useNuxtApp as b, createError as c, useI18n as d, entry$1 as default, __nuxt_component_0 as e, useRouter as f, navigateTo as n, useHead as u };
+export { _export_sfc as _, useState as a, useNuxtApp as b, createError as c, __nuxt_component_0 as d, entry$1 as default, useRouter as e, navigateTo as n, useHead as u };
 //# sourceMappingURL=server.mjs.map

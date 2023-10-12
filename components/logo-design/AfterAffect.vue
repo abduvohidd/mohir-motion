@@ -3,7 +3,7 @@
 <template>
   <div class="logo">
     <div class="container relative">
-      <div class="flex banner items-center justify-center flex-col h-[100vh]">
+      <div class="flex banner items-center justify-center flex-col">
         <h1
           class="md:text-[40px] text-[24px] text-center mt-8 md:mb-[30px] mb-[20px]"
         >
@@ -44,7 +44,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>
@@ -78,7 +80,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>

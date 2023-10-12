@@ -2,7 +2,6 @@
   <div>
     <NuxtLayout name="default">
       <div>
-        <!-- navbar-light -->
         <Navbar />
         <main class="flex-1 pt-16">
           <slot />

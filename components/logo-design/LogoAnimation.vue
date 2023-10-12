@@ -3,7 +3,7 @@
 <template>
   <div class="logo">
     <div class="container relative">
-      <div class="flex banner items-center justify-center flex-col h-[100vh]">
+      <div class="flex banner items-center justify-center flex-col">
         <h1 class="md:text-[40px] text-center text-[25px] mt-8 mb-[20px]">
           LOGO ANIMATSIYA
         </h1>
@@ -40,7 +40,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>
@@ -74,7 +76,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>
@@ -110,7 +114,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>

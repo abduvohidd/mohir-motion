@@ -1,6 +1,8 @@
 <template>
-  <div class="h-[100vh] flex justify-center items-center">
-    <LogoDesign />
+  <div>
+    <div class="md:h-[100vh]">
+      <LogoDesign />
+    </div>
   </div>
 </template>
 

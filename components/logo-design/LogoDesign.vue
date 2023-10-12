@@ -1,9 +1,7 @@
-<script></script>
-
 <template>
   <div class="logo">
     <div class="container relative">
-      <div class="flex banner items-center justify-center flex-col h-[100vh]">
+      <div class="flex banner items-center justify-center flex-col">
         <h1 class="md:text-[40px] text-[30px] text-center mt-8 mb-[20px]">
           LOGO DIZAYN
         </h1>
@@ -25,7 +23,7 @@
               BASIC
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Logo ma'nosini tushuntirish</li>
               <li>2 tagacha variant qilib beriladi.</li>
@@ -37,10 +35,12 @@
               class="p-4 bg-white w-full flex justify-center items-center rounded-bl-lg rounded-br-lg"
             >
               <button
-                type="button"
-                class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
+                type="submit"
+                class="text-black cursor-pointer bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>
@@ -58,7 +58,7 @@
               INTERMEDIATE
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Logo ma'nosini tushuntirish</li>
               <li>3 tagacha variant qilib beriladi.</li>
@@ -77,7 +77,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>
@@ -95,7 +97,7 @@
               PRO
             </div>
             <ul
-              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[50vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
+              class="list-disc text-black list-s border-b border-t border-[black] lg:h-[40vh] bg-white flex flex-col gap-2 p-10 w-full mx-auto"
             >
               <li>Brand book</li>
               <li>Logo ma'nosini tushuntirish.</li>
@@ -115,7 +117,9 @@
                 type="button"
                 class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
               >
-                <a href="https://t.me/Design8959">Buyurtma berish</a>
+                <a href="https://t.me/Design8959" target="_blank" class="z-20"
+                  >Buyurtma berish</a
+                >
               </button>
             </div>
           </div>

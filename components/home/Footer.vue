@@ -5,7 +5,9 @@
     <div class="container">
       <div class="flex justify-between items-center">
         <div class="py-[1.5rem]">
-          <img src="/mohir-logo.svg" alt="not found logo" class="w-32" />
+          <Nuxt-link to="/" class="cursor-pointer">
+            <img src="/mohir-l.svg" alt="not found logo" class="w-[8rem]" />
+          </Nuxt-link>
         </div>
         <div class="flex text-white items-center justify-center gap-4">
           <a href="https://instagram.com/mohir.motion?igshid=MzRlODBiNWFlZA==">

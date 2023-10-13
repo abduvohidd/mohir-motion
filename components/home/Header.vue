@@ -19,7 +19,7 @@ onBeforeUnmount(() => {
     <div class="container">
       <div class="flex justify-center items-center">
         <div
-          class="bg-white btn px-6 py-2 rounded-full relative text-center cursor-pointer md:hover:bg-black md:hover:text-white"
+          class="colorBtn bg-white btn px-6 py-2 rounded-full relative text-center cursor-pointer md:hover:bg-black md:hover:text-white"
         >
           <Nuxt-link to="/services" class="cursor-pointer"
             >Xizmatlarimiz
@@ -31,6 +31,9 @@ onBeforeUnmount(() => {
 </template>
 
 <style>
+.colorBtn {
+  -webkit-tap-highlight-color: transparent;
+}
 .section {
   min-height: 100vh;
   position: relative;

@@ -23,7 +23,7 @@ onBeforeUnmount(() => {
         <div class="flex card flex-col items-center justify-center gap-8">
           <NuxtLink
             to="/logo-design"
-            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
+            class="flex gap-2 logo bg-black md:hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Logo Dizayn</h4>
             <svg
@@ -41,7 +41,7 @@ onBeforeUnmount(() => {
 
           <NuxtLink
             to="/logo-animation"
-            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
+            class="flex gap-2 logo bg-black md:hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Logo Animatsiya</h4>
             <svg
@@ -59,7 +59,7 @@ onBeforeUnmount(() => {
 
           <NuxtLink
             to="/post-animation"
-            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
+            class="flex gap-2 logo bg-black md:hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">Post Animatsiya</h4>
             <svg
@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
 
           <NuxtLink
             to="/after-effect"
-            class="flex gap-2 logo bg-black hover:bg-slate-600 cursor-pointer"
+            class="flex gap-2 logo bg-black md:hover:bg-slate-600 cursor-pointer"
           >
             <h4 class="text-white">After Effects Template</h4>
             <svg

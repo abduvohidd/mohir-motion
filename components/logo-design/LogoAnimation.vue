@@ -15,7 +15,7 @@
             class="flex flex-col group items-center justify-center lg:w-[33.3%] md:w-[50%] w-full"
           >
             <div
-              class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
+              class="bg-black text-white md:group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
               1 sekund 5$
             </div>
@@ -38,7 +38,7 @@
             >
               <button
                 type="button"
-                class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
+                class="text-black bg-white border-2 rounded-full px-4 py-2 md:hover:bg-black md:hover:text-white"
               >
                 <a href="https://t.me/Design8959" target="_blank" class="z-20"
                   >Buyurtma berish</a
@@ -50,7 +50,7 @@
             class="flex flex-col items-center group justify-center lg:w-[33.3%] md:w-[50%] w-full"
           >
             <div
-              class="bg-black text-white w-full group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
+              class="bg-black text-white w-full md:group-hover:bg-[#ff9100] ease-in duration-300 flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
               1 sekund 10$
             </div>
@@ -74,7 +74,7 @@
             >
               <button
                 type="button"
-                class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
+                class="text-black bg-white border-2 rounded-full px-4 py-2 md:hover:bg-black md:hover:text-white"
               >
                 <a href="https://t.me/Design8959" target="_blank" class="z-20"
                   >Buyurtma berish</a
@@ -86,7 +86,7 @@
             class="flex flex-col group items-center justify-center lg:w-[33.3%] md:w-[50%] w-full"
           >
             <div
-              class="bg-black text-white group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
+              class="bg-black text-white md:group-hover:bg-[#ff9100] ease-in duration-300 w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
               1 sekund 15$
             </div>
@@ -112,7 +112,7 @@
             >
               <button
                 type="button"
-                class="text-black bg-white border-2 rounded-full px-4 py-2 hover:bg-black hover:text-white"
+                class="text-black bg-white border-2 rounded-full px-4 py-2 md:hover:bg-black md:hover:text-white"
               >
                 <a href="https://t.me/Design8959" target="_blank" class="z-20"
                   >Buyurtma berish</a

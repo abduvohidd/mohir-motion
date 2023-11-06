@@ -15,7 +15,7 @@
             <div
               class="colorBtn bg-black text-white md:group-hover:bg-[#ff9100] ease-in duration-300 tras w-full flex justify-center rounded-tl-lg rounded-tr-lg p-2 text-[28px]"
             >
-              100$
+              80$
             </div>
             <div
               class="text-black bg-white text-[22px] p-2 w-full flex justify-center"

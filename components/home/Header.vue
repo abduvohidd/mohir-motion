@@ -1,98 +1,77 @@
 <script setup>
 const handleMouseMove = (event) => {
   const { clientX, clientY } = event;
-  const posX = clientX;
-  const posY = clientY;
-  document.querySelector(".section").style.setProperty("--posX", posX);
-  document.querySelector(".section").style.setProperty("--posY", posY);
+  document.querySelector(".section").style.setProperty("--posX", `${clientX}px`);
+  document.querySelector(".section").style.setProperty("--posY", `${clientY}px`);
 };
-
-onBeforeUnmount(() => {
-  document
-    .querySelector(".section")
-    .removeEventListener("mousemove", handleMouseMove);
-});
 </script>
 
 <template>
-  <div class="section" @mousemove="handleMouseMove">
-    <div class="container">
-      <div class="flex justify-center items-center">
-        <div
-          class="colorBtn bg-white btn px-6 py-2 rounded-full relative text-center cursor-pointer md:hover:bg-black md:hover:text-white"
+  <div
+    class="section h-screen flex items-center justify-center px-4"
+    @mousemove="handleMouseMove"
+  >
+    <div class="container max-w-5xl w-full">
+      <div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+        <NuxtLink
+          to="/offline"
+          class="colorBtn w-full sm:w-[12rem] md:w-[15rem] btn px-6 py-3 rounded-full text-center cursor-pointer"
         >
-          <Nuxt-link to="/services" class="cursor-pointer"
-            >Xizmatlarimiz
-          </Nuxt-link>
-        </div>
+          Offline
+        </NuxtLink>
+
+        <NuxtLink
+          to="/online"
+          class="colorBtn w-full sm:w-[12rem] md:w-[15rem] btn px-6 py-3 rounded-full text-center cursor-pointer"
+        >
+          Online
+        </NuxtLink>
       </div>
     </div>
   </div>
 </template>
 
 <style>
-.colorBtn {
-  -webkit-tap-highlight-color: transparent;
-}
-.section {
-  min-height: 100vh;
-  position: relative;
-  padding: 2.5rem 0 2.5rem;
-  margin: 0;
-  --x: calc(var(--posX, 0) * 1px);
-  --y: calc(var(--posY, 0) * 1px);
-  background-image: linear-gradient(115deg, #d3ffd7, #000),
-    radial-gradient(
-      90% 100% at calc(50% + var(--x)) calc(0% + var(--y)),
-      #c8c8c8,
-      #16002d
-    ),
-    radial-gradient(
-      100% 100% at calc(80% - var(--x)) calc(0% - var(--y)),
-      #faff00,
-      #240000
-    ),
-    radial-gradient(
-      150% 210% at calc(100% + var(--x)) calc(0% + var(--y)),
-      #14af7d,
-      #000aff
-    ),
-    radial-gradient(
-      100% 100% at calc(100% - var(--x)) calc(30% - var(--y)),
-      #ff4d00,
-      #00c8ff
-    ),
-    linear-gradient(60deg, red, #7856ff);
-  background-blend-mode: overlay, overlay, difference, difference, difference,
-    normal;
-  animation: bg 1s forwards;
-}
 .section {
   height: 100vh;
-  min-height: 43.75rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
+
+  /* Desktop red glowing background */
+  background: radial-gradient(
+      circle at var(--posX, 50%) var(--posY, 50%),
+      rgba(255, 0, 0, 0.2),
+      transparent 25%
+    ),
+    radial-gradient(circle at 30% 20%, rgba(255, 50, 50, 0.25), transparent 30%),
+    radial-gradient(circle at 80% 80%, rgba(200, 0, 0, 0.3), transparent 35%), #000;
+  background-size: cover;
 }
-/* .section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: url(/car.webp) 50% / cover no-repeat;
-  filter: brightness(0.4);
-} */
+
+/* Mobile red gradient */
+@media (max-width: 768px) {
+  .section {
+    background: linear-gradient(135deg, #1a0000, #400000, #0d0d0d);
+  }
+}
+
 .btn {
-  background: #fff;
   border-radius: 6.25rem;
   font-family: "Montserrat", sans-serif;
-  border: none;
-  color: #000;
-  font-weight: 500;
-  font-size: 1.25rem;
-  padding: 0.75rem 2rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ff1a1a, #cc0000);
+  color: white;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(200, 0, 0, 0.7);
 }
 </style>

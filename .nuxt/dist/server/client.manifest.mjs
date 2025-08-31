@@ -1,1 +1,1 @@
-export { default } from "file:///C:/Users/tonny/Documents/mohir/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
+export { default } from "file:///C:/Wasaf/mohir-motion/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

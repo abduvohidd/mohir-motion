@@ -12,78 +12,78 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "C:/Users/tonny/Documents/mohir/.nuxt/types/nitro-imports"
+        "C:/Wasaf/mohir-motion/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "C:/Users/tonny/Documents/mohir/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "C:/Wasaf/mohir-motion/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "C:/Users/tonny/Documents/mohir"
+        "C:/Wasaf/mohir-motion"
       ],
       "~/*": [
-        "C:/Users/tonny/Documents/mohir/*"
+        "C:/Wasaf/mohir-motion/*"
       ],
       "@": [
-        "C:/Users/tonny/Documents/mohir"
+        "C:/Wasaf/mohir-motion"
       ],
       "@/*": [
-        "C:/Users/tonny/Documents/mohir/*"
+        "C:/Wasaf/mohir-motion/*"
       ],
       "~~": [
-        "C:/Users/tonny/Documents/mohir"
+        "C:/Wasaf/mohir-motion"
       ],
       "~~/*": [
-        "C:/Users/tonny/Documents/mohir/*"
+        "C:/Wasaf/mohir-motion/*"
       ],
       "@@": [
-        "C:/Users/tonny/Documents/mohir"
+        "C:/Wasaf/mohir-motion"
       ],
       "@@/*": [
-        "C:/Users/tonny/Documents/mohir/*"
+        "C:/Wasaf/mohir-motion/*"
       ],
       "assets": [
-        "C:/Users/tonny/Documents/mohir/assets"
+        "C:/Wasaf/mohir-motion/assets"
       ],
       "assets/*": [
-        "C:/Users/tonny/Documents/mohir/assets/*"
+        "C:/Wasaf/mohir-motion/assets/*"
       ],
       "public": [
-        "C:/Users/tonny/Documents/mohir/public"
+        "C:/Wasaf/mohir-motion/public"
       ],
       "public/*": [
-        "C:/Users/tonny/Documents/mohir/public/*"
+        "C:/Wasaf/mohir-motion/public/*"
       ],
       "vue-i18n": [
-        "C:/Users/tonny/Documents/mohir/node_modules/vue-i18n/dist/vue-i18n"
+        "C:/Wasaf/mohir-motion/node_modules/vue-i18n/dist/vue-i18n"
       ],
       "@intlify/shared": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/shared/dist/shared"
+        "C:/Wasaf/mohir-motion/node_modules/@intlify/shared/dist/shared"
       ],
       "@intlify/vue-router-bridge": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/vue-router-bridge/lib/index"
+        "C:/Wasaf/mohir-motion/node_modules/@intlify/vue-router-bridge/lib/index"
       ],
       "@intlify/vue-i18n-bridge": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@intlify/vue-i18n-bridge/lib/index"
+        "C:/Wasaf/mohir-motion/node_modules/@intlify/vue-i18n-bridge/lib/index"
       ],
       "vue-i18n-routing": [
-        "C:/Users/tonny/Documents/mohir/node_modules/vue-i18n-routing/dist/vue-i18n-routing"
+        "C:/Wasaf/mohir-motion/node_modules/vue-i18n-routing/dist/vue-i18n-routing"
       ],
       "#i18n": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@nuxtjs/i18n/dist/runtime/composables"
+        "C:/Wasaf/mohir-motion/node_modules/@nuxtjs/i18n/dist/runtime/composables"
       ],
       "#image": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@nuxt/image-edge/dist/runtime"
+        "C:/Wasaf/mohir-motion/node_modules/@nuxt/image-edge/dist/runtime"
       ],
       "#image/*": [
-        "C:/Users/tonny/Documents/mohir/node_modules/@nuxt/image-edge/dist/runtime/*"
+        "C:/Wasaf/mohir-motion/node_modules/@nuxt/image-edge/dist/runtime/*"
       ],
       "pinia": [
-        "C:/Users/tonny/Documents/mohir/node_modules/pinia/dist/pinia"
+        "C:/Wasaf/mohir-motion/node_modules/pinia/dist/pinia"
       ]
     }
   },
   "include": [
-    "C:/Users/tonny/Documents/mohir/.nuxt/types/nitro-nuxt.d.ts",
+    "C:/Wasaf/mohir-motion/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

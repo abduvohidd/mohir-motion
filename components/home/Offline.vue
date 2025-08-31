@@ -30,12 +30,12 @@
           </div>
 
           <div
-            class="bg-gray-900 px-5 sm:px-8 md:px-10 py-6 sm:py-8 flex flex-col gap-3 sm:gap-4 text-base sm:text-lg text-gray-200 leading-relaxed"
+            class="bg-gray-900 px-5 sm:px-8 md:px-10 flex flex-col gap-3 sm:gap-4 text-base sm:text-lg text-gray-200 leading-relaxed"
           >
             <p class="font-semibold text-white text-lg sm:text-xl">
               Kurs yakunida o‘quvchilar quyidagi darajada ishlar qila olishadi:
             </p>
-            <ul class="list-inside ml-2 space-y-2">
+            <ul class="list-inside space-y-2">
               <li>
                 - Asror Iskandarov loyihasi →
                 <a

@@ -4,6 +4,14 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/i18n", "nuxt-icon", "@nuxt/image-edge", "@pinia/nuxt"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
+    head: {
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.cdnfonts.com/css/satoshi',
+        },
+      ],
+    },
   },
 
   postcss: {

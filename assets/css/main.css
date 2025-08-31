@@ -1,19 +1,20 @@
 @import "vue-skeletor/dist/vue-skeletor.css";
 @import "vue3-toastify/dist/index.css";
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Satoshi', sans-serif;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
 }
 
 body {
   background: #1a1a1a;
+  font-family: 'Satoshi', sans-serif;
+
 }
 
 .router-link-active {

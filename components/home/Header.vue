@@ -8,11 +8,16 @@ const handleMouseMove = (event) => {
 
 <template>
   <div
-    class="section h-screen flex items-center justify-center px-4"
+    class="section h-screen flex items-center justify-center px-4 relative"
     @mousemove="handleMouseMove"
   >
-    <div class="container max-w-5xl w-full">
-      <div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/10 z-0"></div>
+
+    <div class="container max-w-5xl w-full h-full text-center relative z-10">
+      <div
+        class="flex h-full flex-row justify-center pb-5 items-end gap-6 md:gap-12 animate-fadeInUp"
+      >
         <NuxtLink
           to="/offline"
           class="colorBtn w-full sm:w-[12rem] md:w-[15rem] btn px-6 py-3 rounded-full text-center cursor-pointer"
@@ -31,7 +36,7 @@ const handleMouseMove = (event) => {
   </div>
 </template>
 
-<style>
+<style scoped>
 .section {
   height: 100vh;
   display: flex;
@@ -40,21 +45,12 @@ const handleMouseMove = (event) => {
   position: relative;
   overflow: hidden;
 
-  /* Desktop red glowing background */
-  background: radial-gradient(
-      circle at var(--posX, 50%) var(--posY, 50%),
-      rgba(255, 0, 0, 0.2),
-      transparent 25%
-    ),
-    radial-gradient(circle at 30% 20%, rgba(255, 50, 50, 0.25), transparent 30%),
-    radial-gradient(circle at 80% 80%, rgba(200, 0, 0, 0.3), transparent 35%), #000;
-  background-size: cover;
+  background: url("/murod.png") no-repeat center center/cover;
 }
 
-/* Mobile red gradient */
-@media (max-width: 768px) {
+@media (min-width: 1024px) {
   .section {
-    background: linear-gradient(135deg, #1a0000, #400000, #0d0d0d);
+    background: url("/murodd.png") no-repeat center center/cover;
   }
 }
 
@@ -73,5 +69,20 @@ const handleMouseMove = (event) => {
   background: linear-gradient(135deg, #ff1a1a, #cc0000);
   color: white;
   box-shadow: 0 0 25px rgba(255, 0, 0, 0.8), 0 0 50px rgba(200, 0, 0, 0.7);
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fadeInUp {
+  animation: fadeInUp 1s ease forwards;
 }
 </style>

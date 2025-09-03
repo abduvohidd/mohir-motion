@@ -16,14 +16,34 @@ const handleMouseMove = (event) => {
 
     <div class="container max-w-5xl w-full h-full text-center relative z-10">
       <div
-        class="flex h-full flex-row justify-center pb-14 items-end gap-4 animate-fadeInUp"
+        class="sm:flex hidden h-full flex-row justify-center pb-14 items-end gap-4 animate-fadeInUp"
       >
         <NuxtLink to="/offline">
-          <img src="/offline.png" alt="" />
+          <img
+            src="/online.png"
+            alt="off"
+            class="w-52 object-contain scale-105 hover:!scale-100"
+          />
         </NuxtLink>
 
         <NuxtLink to="/online">
-          <img src="/online.png" alt="" />
+          <img
+            src="/offline.png"
+            alt="on"
+            class="w-52 object-contain scale-105 hover:!scale-100"
+          />
+        </NuxtLink>
+      </div>
+
+      <div
+        class="sm:hidden flex h-full flex-row justify-center pb-14 items-end gap-4 animate-fadeInUp"
+      >
+        <NuxtLink to="/offline">
+          <img src="/online.png" alt="off" />
+        </NuxtLink>
+
+        <NuxtLink to="/online">
+          <img src="/offline.png" alt="onn" />
         </NuxtLink>
       </div>
     </div>
@@ -44,7 +64,7 @@ const handleMouseMove = (event) => {
 
 @media (min-width: 1024px) {
   .section {
-    background: url("/murodd.png") no-repeat center center/cover;
+    background: url("/k.png") no-repeat center center/cover;
   }
 }
 
@@ -77,5 +97,19 @@ const handleMouseMove = (event) => {
 }
 .animate-fadeInUp {
   animation: fadeInUp 1s ease forwards;
+}
+
+.section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px; /* balandligini sozlasa bo‘ladi */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, black 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  pointer-events: none;
+  z-index: 5;
 }
 </style>

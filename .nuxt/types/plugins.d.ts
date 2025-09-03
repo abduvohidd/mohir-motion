@@ -17,6 +17,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client").default> &
   InjectionType<typeof import("../../plugins/googleMaps").default> &
   InjectionType<typeof import("../../plugins/vue-awesome-paginate").default> &
+  InjectionType<typeof import("../../plugins/aos.client").default> &
   InjectionType<typeof import("../../plugins/axios").default> &
   InjectionType<typeof import("../../plugins/maska").default>
 

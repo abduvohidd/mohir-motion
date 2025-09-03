@@ -62,41 +62,41 @@ const sendForm = async () => {
     <div class="container !h-[95vh] flex items-center justify-center bg-gray-100">
       <form
         @submit.prevent="sendForm"
-        class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md space-y-5"
+        class="p-8 rounded-2xl shadow-xl w-full max-w-md space-y-5 bg-black/50 backdrop-blur-lg border border-red-400"
       >
-        <h2 class="text-2xl font-bold text-center mb-4">Ma'lumot qoldirish</h2>
+        <h2 class="text-2xl font-bold text-center mb-4 text-white">Ma'lumot qoldirish</h2>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-700">Ism</label>
+          <label class="block mb-1 font-medium text-gray-200">Ism</label>
           <input
             v-model="name"
             type="text"
             autocomplete="off"
             placeholder="Ismingizni yozing"
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none bg-gray-800/60 text-black"
             required
           />
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-700">Familiya</label>
+          <label class="block mb-1 font-medium text-gray-200">Familiya</label>
           <input
             v-model="surname"
             type="text"
             autocomplete="off"
             placeholder="Familiyangizni yozing"
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none bg-gray-800/60 text-black"
             required
           />
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-700"
+          <label class="block mb-1 font-medium text-gray-200"
             >Oldin After Effectsda ishlaganmisiz?</label
           >
           <select
             v-model="workedBefore"
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none bg-gray-800/60 text-black"
           >
             <option value="ha">Ha</option>
             <option value="yo‘q">Yo‘q</option>
@@ -104,20 +104,20 @@ const sendForm = async () => {
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-700">Telefon raqam</label>
+          <label class="block mb-1 font-medium text-gray-200">Telefon raqam</label>
           <input
             v-model="phone"
             type="tel"
             autocomplete="off"
             pattern="^\[0-9]{9}$"
             placeholder="90 123-45-67"
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none bg-gray-800/60 text-black"
             required
           />
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-700">Yoshingiz</label>
+          <label class="block mb-1 font-medium text-gray-200">Yoshingiz</label>
           <input
             v-model="age"
             type="number"
@@ -125,7 +125,7 @@ const sendForm = async () => {
             min="10"
             max="100"
             placeholder="Yoshingizni yozing"
-            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none"
+            class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-red-400 outline-none bg-gray-800/60 text-black"
             required
           />
         </div>
@@ -141,7 +141,7 @@ const sendForm = async () => {
         <p
           v-if="message"
           class="text-center mt-3 font-medium"
-          :class="message.includes('✅') ? 'text-green-600' : 'text-red-600'"
+          :class="message.includes('✅') ? 'text-green-400' : 'text-red-400'"
         >
           {{ message }}
         </p>
@@ -152,7 +152,7 @@ const sendForm = async () => {
 
 <style>
 .pricing {
-  background: radial-gradient(circle at top, #600000, #800000, #1a0000);
+  background: url("/bgg.png") no-repeat center center/cover;
   padding: 40px 0;
 }
 </style>

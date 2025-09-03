@@ -26,6 +26,7 @@
     "@pinia/nuxt": "^0.4.11",
     "@vueform/multiselect": "^2.6.2",
     "@vueuse/nuxt": "^10.1.2",
+    "aos": "^2.3.4",
     "dayjs": "^1.11.9",
     "embla-carousel-auto-height": "^8.0.0-rc04",
     "embla-carousel-autoplay": "^8.0.0-rc04",

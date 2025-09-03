@@ -8,18 +8,18 @@
       <div
         class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 place-items-center"
       >
-        <!-- PLAN CARD -->
+        <!-- STANDART -->
         <div
-          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900 to-gray-800 text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300"
+          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900/70 to-gray-800/70 backdrop-blur-xl text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300 hover:scale-105"
         >
           <div
-            class="bg-black/80 group-hover:bg-red-500 transition-colors duration-300 text-xl sm:text-2xl font-semibold text-center py-4"
+            class="bg-black/60 backdrop-blur-md group-hover:bg-red-500 transition-colors duration-300 text-xl sm:text-2xl font-semibold text-center py-4"
           >
             STANDART
           </div>
 
           <ul
-            class="flex flex-col gap-3 text-gray-200 bg-gray-900 px-6 sm:px-8 py-6 text-sm sm:text-[15px] min-h-[250px]"
+            class="flex flex-col gap-3 text-gray-200 bg-gray-900/60 backdrop-blur-md px-6 sm:px-8 py-6 text-sm sm:text-[15px] min-h-[250px]"
           >
             <li>- 0 dan Pro darajagacham darsliklar</li>
             <li>- 15+ After Effects video darsliklari</li>
@@ -45,12 +45,12 @@
             </li>
           </ul>
 
-          <div class="bg-gray-900 px-6 pb-4 text-center">
+          <div class="bg-gray-900/60 backdrop-blur-md px-6 pb-4 text-center">
             <p class="text-gray-400 line-through">1.497.000 so‘m</p>
             <p class="text-2xl font-bold text-green-400">997.000 so‘m</p>
           </div>
 
-          <div class="flex justify-center bg-gray-900 pb-6">
+          <div class="flex justify-center bg-gray-900/60 backdrop-blur-md pb-6">
             <a
               href="https://t.me/mohir_motion"
               target="_blank"
@@ -61,23 +61,24 @@
           </div>
         </div>
 
+        <!-- PREMIUM -->
         <div
-          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900 to-gray-800 text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300"
+          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900/70 to-gray-800/70 backdrop-blur-xl text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300 hover:scale-105"
         >
           <div
-            class="bg-black/80 group-hover:bg-red-500 transition-colors duration-300 text-2xl font-semibold text-center py-4"
+            class="bg-black/60 backdrop-blur-md group-hover:bg-red-500 transition-colors duration-300 text-2xl font-semibold text-center py-4"
           >
             PREMIUM
           </div>
 
           <ul
-            class="flex flex-col gap-3 text-gray-200 bg-gray-900 px-8 py-6 text-[15px] min-h-[250px]"
+            class="flex flex-col gap-3 text-gray-200 bg-gray-900/60 backdrop-blur-md px-8 py-6 text-[15px] min-h-[250px]"
           >
             <li>- 0 dan Pro darajagacham darsliklar</li>
             <li>- 20+ After Effects video darsliklar</li>
             <li>- 5+ Blender boshlang‘ich darsliklar</li>
             <li>
-              - Asror Iskandarov montaj kursi →
+              - Asror Iskandarov loyihalari asosida montaj saboqlari →
               <a
                 href="https://www.instagram.com/reel/DLh5RpOK_HI/?igsh=MWppdTZ4MWp3Z3FrbQ=="
                 target="_blank"
@@ -86,7 +87,7 @@
               >
             </li>
             <li>
-              - Shaxzod Qosimov montaj saboqlari →
+              - Shaxzod Qosimov loyihalari asosida montaj saboqlari→
               <a
                 href="https://www.instagram.com/reel/DMDPFErNExd/?igsh=MTQ1b21iOHptdDVibA=="
                 target="_blank"
@@ -106,12 +107,12 @@
             </li>
           </ul>
 
-          <div class="bg-gray-900 px-6 pb-4 text-center">
+          <div class="bg-gray-900/60 backdrop-blur-md px-6 pb-4 text-center">
             <p class="text-gray-400 line-through">2.497.000 so‘m</p>
             <p class="text-2xl font-bold text-green-400">1.497.000 so‘m</p>
           </div>
 
-          <div class="flex justify-center bg-gray-900 pb-6">
+          <div class="flex justify-center bg-gray-900/60 backdrop-blur-md pb-6">
             <a
               href="https://t.me/mohir_motion"
               target="_blank"
@@ -122,23 +123,24 @@
           </div>
         </div>
 
+        <!-- VIP -->
         <div
-          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900 to-gray-800 text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300"
+          class="plan-card w-full max-w-sm group bg-gradient-to-b from-gray-900/70 to-gray-800/70 backdrop-blur-xl text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden transition-transform duration-300 hover:scale-105"
         >
           <div
-            class="bg-black/80 group-hover:bg-red-500 transition-colors duration-300 text-2xl font-semibold text-center py-4"
+            class="bg-black/60 backdrop-blur-md group-hover:bg-red-500 transition-colors duration-300 text-2xl font-semibold text-center py-4"
           >
             VIP
           </div>
 
           <ul
-            class="flex flex-col gap-3 text-gray-200 bg-gray-900 px-8 py-6 text-[15px] min-h-[250px]"
+            class="flex flex-col gap-3 text-gray-200 bg-gray-900/60 backdrop-blur-md px-8 py-6 text-[15px] min-h-[250px]"
           >
             <li>- 0 dan Pro darajagacham darsliklar</li>
             <li>- 20+ After Effects video darsliklar</li>
             <li>- 5+ Blender boshlang‘ich darsliklar</li>
             <li>
-              - Asror Iskandarov montaj kursi →
+              - Asror Iskandarov loyihalari asosida montaj saboqlari →
               <a
                 href="https://www.instagram.com/reel/DLh5RpOK_HI/?igsh=MWppdTZ4MWp3Z3FrbQ=="
                 target="_blank"
@@ -147,7 +149,7 @@
               >
             </li>
             <li>
-              - Shaxzod Qosimov montaj saboqlari →
+              - Shaxzod Qosimov loyihalari asosida montaj saboqlari →
               <a
                 href="https://www.instagram.com/reel/DMDPFErNExd/?igsh=MTQ1b21iOHptdDVibA=="
                 target="_blank"
@@ -166,12 +168,12 @@
             </router-link>
           </ul>
 
-          <div class="bg-gray-900 px-6 pb-4 text-center">
+          <div class="bg-gray-900/60 backdrop-blur-md px-6 pb-4 text-center">
             <p class="text-gray-400 line-through">3.497.000 so‘m</p>
             <p class="text-2xl font-bold text-green-400">2.497.000 so‘m</p>
           </div>
 
-          <div class="flex justify-center bg-gray-900 pb-6">
+          <div class="flex justify-center bg-gray-900/60 backdrop-blur-md pb-6">
             <a
               href="https://t.me/mohir_motion"
               target="_blank"
@@ -188,7 +190,7 @@
 
 <style scoped>
 .pricing {
-  background: radial-gradient(circle at top, #600000, #800000, #1a0000);
+  background: url("/bgg.png") no-repeat center center/cover;
   padding: 60px 0;
 }
 </style>

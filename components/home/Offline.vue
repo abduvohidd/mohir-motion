@@ -9,28 +9,20 @@
 
       <div class="flex justify-center">
         <div
-          class="plan-card w-full max-w-[95%] sm:max-w-[40rem] lg:max-w-[45rem] group bg-gradient-to-b from-gray-900 to-gray-800 text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden hover:scale-105 transition-transform duration-300 font-poppins"
+          class="plan-card w-full max-w-[95%] sm:max-w-[40rem] lg:max-w-[45rem] group bg-gradient-to-b from-gray-900/70 to-gray-800/70 backdrop-blur-xl text-white rounded-2xl shadow-2xl border-2 border-red-500 overflow-hidden hover:scale-105 transition-transform duration-300 font-poppins"
         >
           <div
             class="px-5 sm:px-8 md:px-10 py-6 sm:py-8 flex flex-col gap-4 sm:gap-5 text-base sm:text-lg leading-relaxed"
           >
+            <p>- After Effects (0 dan mukammal darajagacha)</p>
+            <p>- Blender bo‘yicha boshlang‘ich darsliklar</p>
             <p>
-              <span class="font-semibold"></span> - After Effects (0 dan mukammal
-              darajagacha)
-            </p>
-            <p>
-              <span class="font-semibold"></span> - Blender bo‘yicha boshlang‘ich
-              darsliklar
-            </p>
-
-            <p>
-              <span class="font-semibold"></span> - Eng yaxshi natija ko‘rsatgan
-              o‘quvchiga kurs to‘lovi 100% qaytariladi!
+              - Eng yaxshi natija ko‘rsatgan o‘quvchiga kurs to‘lovi 100% qaytariladi!
             </p>
           </div>
 
           <div
-            class="bg-gray-900 px-5 sm:px-8 md:px-10 flex flex-col gap-3 sm:gap-4 text-base sm:text-lg text-gray-200 leading-relaxed"
+            class="bg-gray-900/70 backdrop-blur-md px-5 sm:px-8 md:px-10 flex flex-col gap-3 sm:gap-4 text-base sm:text-lg text-gray-200 leading-relaxed"
           >
             <p class="font-semibold text-white text-lg sm:text-xl">
               Kurs yakunida o‘quvchilar quyidagi darajada ishlar qila olishadi:
@@ -67,14 +59,14 @@
           </div>
 
           <div
-            class="bg-gray-900 px-5 sm:px-8 md:px-10 py-6 sm:py-8 flex justify-center gap-3 text-base sm:text-lg text-gray-200 leading-relaxed"
+            class="bg-gray-900/70 backdrop-blur-md px-5 sm:px-8 md:px-10 py-6 sm:py-8 flex justify-center gap-3 text-base sm:text-lg text-gray-200 leading-relaxed"
           >
             <p class="font-semibold text-white text-2xl sm:text-xl">
               Narxi: <span class="text-green-500">7 497 000 </span> so‘m
             </p>
           </div>
 
-          <div class="flex justify-center bg-gray-900 py-6 sm:py-8">
+          <div class="flex justify-center bg-gray-900/70 backdrop-blur-md py-6 sm:py-8">
             <NuxtLink
               to="/form"
               class="px-6 sm:px-8 py-2 sm:py-3 rounded-full border-2 border-red-400 text-white text-base sm:text-lg font-semibold hover:bg-red-500 hover:text-white transition-all"
@@ -96,8 +88,8 @@
 }
 
 .pricing {
-  background: radial-gradient(circle at top, #600000, #800000, #1a0000);
-
+  /* background: radial-gradient(circle at top, #600000, #800000, #1a0000); */
+  background: url("/bgg.png") no-repeat center center/cover;
   padding: 40px 0;
 }
 </style>

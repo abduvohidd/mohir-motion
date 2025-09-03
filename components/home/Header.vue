@@ -16,20 +16,14 @@ const handleMouseMove = (event) => {
 
     <div class="container max-w-5xl w-full h-full text-center relative z-10">
       <div
-        class="flex h-full flex-row justify-center pb-5 items-end gap-6 md:gap-12 animate-fadeInUp"
+        class="flex h-full flex-row justify-center pb-14 items-end gap-4 animate-fadeInUp"
       >
-        <NuxtLink
-          to="/offline"
-          class="colorBtn w-full sm:w-[12rem] md:w-[15rem] btn px-6 py-3 rounded-full text-center cursor-pointer"
-        >
-          Offline
+        <NuxtLink to="/offline">
+          <img src="/offline.png" alt="" />
         </NuxtLink>
 
-        <NuxtLink
-          to="/online"
-          class="colorBtn w-full sm:w-[12rem] md:w-[15rem] btn px-6 py-3 rounded-full text-center cursor-pointer"
-        >
-          Online
+        <NuxtLink to="/online">
+          <img src="/online.png" alt="" />
         </NuxtLink>
       </div>
     </div>
@@ -45,7 +39,7 @@ const handleMouseMove = (event) => {
   position: relative;
   overflow: hidden;
 
-  background: url("/murod.png") no-repeat center center/cover;
+  background: url("/mohir.png") no-repeat center center/cover;
 }
 
 @media (min-width: 1024px) {
@@ -59,7 +53,6 @@ const handleMouseMove = (event) => {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
-  background: white;
   color: black;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.3);

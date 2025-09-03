@@ -35,7 +35,7 @@
       </div>
     </section>
 
-    <section class="bg-black pb-5 sm:block hidden">
+    <!-- <section class="bg-black pb-5 sm:block hidden">
       <img src="/men.png" alt="" class="flex justify-center p-4 w-[30rem] mx-auto" />
 
       <img
@@ -76,7 +76,7 @@
           </a>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

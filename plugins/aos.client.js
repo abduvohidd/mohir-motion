@@ -5,7 +5,7 @@ export default defineNuxtPlugin(() => {
   if (process.client) {
     AOS.init({
       duration: 800,   
-      once: true,     
+      once: false,     
       easing: "ease-in-out"
     });
   }

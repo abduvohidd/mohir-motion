@@ -2,6 +2,7 @@
 declare module 'vue' {
   export interface GlobalComponents {
     'Loading': typeof import("../components/Loading.vue")['default']
+    'Video': typeof import("../components/Video.vue")['default']
     'HomeHeader': typeof import("../components/home/Header.vue")['default']
     'HomeOffline': typeof import("../components/home/Offline.vue")['default']
     'HomeOnline': typeof import("../components/home/Online.vue")['default']
@@ -28,6 +29,7 @@ declare module 'vue' {
     'Html': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyLoading': typeof import("../components/Loading.vue")['default']
+    'LazyVideo': typeof import("../components/Video.vue")['default']
     'LazyHomeHeader': typeof import("../components/home/Header.vue")['default']
     'LazyHomeOffline': typeof import("../components/home/Offline.vue")['default']
     'LazyHomeOnline': typeof import("../components/home/Online.vue")['default']
@@ -57,6 +59,7 @@ declare module 'vue' {
 }
 
 export const Loading: typeof import("../components/Loading.vue")['default']
+export const Video: typeof import("../components/Video.vue")['default']
 export const HomeHeader: typeof import("../components/home/Header.vue")['default']
 export const HomeOffline: typeof import("../components/home/Offline.vue")['default']
 export const HomeOnline: typeof import("../components/home/Online.vue")['default']
@@ -83,6 +86,7 @@ export const Head: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Html']
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyLoading: typeof import("../components/Loading.vue")['default']
+export const LazyVideo: typeof import("../components/Video.vue")['default']
 export const LazyHomeHeader: typeof import("../components/home/Header.vue")['default']
 export const LazyHomeOffline: typeof import("../components/home/Offline.vue")['default']
 export const LazyHomeOnline: typeof import("../components/home/Online.vue")['default']

@@ -12,6 +12,9 @@ declare module 'nitropack' {
     '/__i18n__/prerender/:hash': {
       'get': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxtjs/i18n/dist/runtime/server/dynamic').default>>>>
     }
+    '/_ipx/**': {
+      'default': Simplify<Serialize<Awaited<ReturnType<typeof import('../../node_modules/@nuxt/image-edge/dist/runtime/ipx').default>>>>
+    }
   }
 }
 export {}

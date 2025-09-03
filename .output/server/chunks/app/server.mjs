@@ -6,7 +6,7 @@ import { useRoute as useRoute$1, createMemoryHistory, createRouter, START_LOCATI
 import { createError as createError$1, sanitizeStatusCode } from 'h3';
 import { withQuery, hasProtocol, parseURL, joinURL } from 'ufo';
 import { renderSSRHead } from '@unhead/ssr';
-import { getActiveHead, createServerHead as createServerHead$1 } from 'unhead';
+import { composableNames, getActiveHead, createServerHead as createServerHead$1 } from 'unhead';
 import { defineHeadPlugin } from '@unhead/shared';
 import { CoreWarnCodes, CompileErrorCodes, registerMessageResolver, resolveValue, registerLocaleFallbacker, fallbackWithLocaleChain, setDevToolsHook, createCompileError, DEFAULT_LOCALE as DEFAULT_LOCALE$1, updateFallbackLocale, NUMBER_FORMAT_OPTIONS_KEYS, DATETIME_FORMAT_OPTIONS_KEYS, setFallbackContext, createCoreContext, clearDateTimeFormat, clearNumberFormat, setAdditionalMeta, getFallbackContext, NOT_REOSLVED, parseTranslateArgs, translate, MISSING_RESOLVE_VALUE, parseDateTimeArgs, datetime, parseNumberArgs, number } from '@intlify/core-base';
 import { parse, serialize } from 'cookie-es';
@@ -343,44 +343,33 @@ const createError = (err) => {
   _err.__nuxt_error = true;
   return _err;
 };
-const __nuxt_page_meta$5 = { layout: "home-layout" };
-const __nuxt_page_meta$4 = { layout: "home-layout" };
-const __nuxt_page_meta$3 = { layout: "home-layout" };
 const __nuxt_page_meta$2 = { layout: "home-layout" };
 const __nuxt_page_meta$1 = { layout: "home-layout" };
 const __nuxt_page_meta = { layout: "home-layout" };
 const _routes = [
   {
-    name: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.name) ?? "after-effect",
-    path: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.path) ?? "/after-effect",
-    meta: __nuxt_page_meta$5 || {},
-    alias: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.alias) || [],
-    redirect: (__nuxt_page_meta$5 == null ? void 0 : __nuxt_page_meta$5.redirect) || void 0,
-    component: () => import('./_nuxt/after-effect-edde6ebc.mjs').then((m) => m.default || m)
+    name: "form",
+    path: "/form",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/form-0a6aa14e.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.name) ?? "index",
-    path: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.path) ?? "/",
-    meta: __nuxt_page_meta$4 || {},
-    alias: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.alias) || [],
-    redirect: (__nuxt_page_meta$4 == null ? void 0 : __nuxt_page_meta$4.redirect) || void 0,
-    component: () => import('./_nuxt/index-a2e917fe.mjs').then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.name) ?? "logo-animation",
-    path: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.path) ?? "/logo-animation",
-    meta: __nuxt_page_meta$3 || {},
-    alias: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.alias) || [],
-    redirect: (__nuxt_page_meta$3 == null ? void 0 : __nuxt_page_meta$3.redirect) || void 0,
-    component: () => import('./_nuxt/logo-animation-9f8b3028.mjs').then((m) => m.default || m)
-  },
-  {
-    name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "logo-design",
-    path: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.path) ?? "/logo-design",
+    name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "index",
+    path: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.path) ?? "/",
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/logo-design-602c73a2.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-c6180a12.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "mundarija",
+    path: "/mundarija",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/mundarija-9c26ec6a.mjs').then((m) => m.default || m)
   },
   {
     name: "not-found",
@@ -391,24 +380,40 @@ const _routes = [
     component: () => import('./_nuxt/not-found-ed192978.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "post-animation",
-    path: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.path) ?? "/post-animation",
+    name: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.name) ?? "offline",
+    path: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.path) ?? "/offline",
     meta: __nuxt_page_meta$1 || {},
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/post-animation-d717470f.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/offline-f91b02a4.mjs').then((m) => m.default || m)
   },
   {
-    name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "services",
-    path: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.path) ?? "/services",
+    name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "online",
+    path: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.path) ?? "/online",
     meta: __nuxt_page_meta || {},
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/services-672e2752.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/online-11af1b23.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "premium",
+    path: "/premium",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/premium-11a51462.mjs').then((m) => m.default || m)
+  },
+  {
+    name: "vip",
+    path: "/vip",
+    meta: {},
+    alias: [],
+    redirect: void 0,
+    component: () => import('./_nuxt/vip-0a52ca38.mjs').then((m) => m.default || m)
   }
 ];
 const appPageTransition = { "name": "page", "mode": "out-in" };
-const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [], "style": [], "script": [], "noscript": [] };
+const appHead = { "meta": [{ "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "charset": "utf-8" }], "link": [{ "rel": "stylesheet", "href": "https://fonts.cdnfonts.com/css/satoshi" }], "style": [], "script": [], "noscript": [] };
 const appLayoutTransition = false;
 const appKeepalive = false;
 const routerOptions0 = {
@@ -773,6 +778,12 @@ function useHead(input, options = {}) {
     return isBrowser ? clientUseHead(input, options) : serverUseHead(input, options);
   }
 }
+const coreComposableNames = [
+  "injectHead"
+];
+({
+  "@unhead/vue": [...coreComposableNames, ...composableNames]
+});
 function useRequestHeaders(include) {
   var _a;
   const headers = ((_a = useNuxtApp().ssrContext) == null ? void 0 : _a.event.node.req.headers) ?? {};
@@ -819,8 +830,8 @@ const revive_payload_server_eJ33V7gbc6 = /* @__PURE__ */ defineNuxtPlugin({
     }
   }
 });
-const LazyIcon = defineAsyncComponent(() => import('./_nuxt/Icon-50d6d5fd.mjs').then((r) => r.default));
-const LazyIconCSS = defineAsyncComponent(() => import('./_nuxt/IconCSS-98f4db69.mjs').then((r) => r.default));
+const LazyIcon = defineAsyncComponent(() => import('./_nuxt/Icon-d3e12395.mjs').then((r) => r.default));
+const LazyIconCSS = defineAsyncComponent(() => import('./_nuxt/IconCSS-fca90dee.mjs').then((r) => r.default));
 const lazyGlobalComponents = [
   ["Icon", LazyIcon],
   ["IconCSS", LazyIconCSS]
@@ -3611,6 +3622,91 @@ const plugins = [
   axios_sVCuMR6hEC,
   maska_r8BHBbSmHt
 ];
+const removeUndefinedProps = (props) => Object.fromEntries(Object.entries(props).filter(([, value]) => value !== void 0));
+const setupForUseMeta = (metaFactory, renderChild) => (props, ctx) => {
+  useHead(() => metaFactory({ ...removeUndefinedProps(props), ...ctx.attrs }, ctx));
+  return () => {
+    var _a, _b;
+    return renderChild ? (_b = (_a = ctx.slots).default) == null ? void 0 : _b.call(_a) : null;
+  };
+};
+const globalProps = {
+  accesskey: String,
+  autocapitalize: String,
+  autofocus: {
+    type: Boolean,
+    default: void 0
+  },
+  class: [String, Object, Array],
+  contenteditable: {
+    type: Boolean,
+    default: void 0
+  },
+  contextmenu: String,
+  dir: String,
+  draggable: {
+    type: Boolean,
+    default: void 0
+  },
+  enterkeyhint: String,
+  exportparts: String,
+  hidden: {
+    type: Boolean,
+    default: void 0
+  },
+  id: String,
+  inputmode: String,
+  is: String,
+  itemid: String,
+  itemprop: String,
+  itemref: String,
+  itemscope: String,
+  itemtype: String,
+  lang: String,
+  nonce: String,
+  part: String,
+  slot: String,
+  spellcheck: {
+    type: Boolean,
+    default: void 0
+  },
+  style: String,
+  tabindex: String,
+  title: String,
+  translate: String
+};
+const Head = /* @__PURE__ */ defineComponent({
+  // eslint-disable-next-line vue/no-reserved-component-names
+  name: "Head",
+  inheritAttrs: false,
+  setup: (_props, ctx) => () => {
+    var _a, _b;
+    return (_b = (_a = ctx.slots).default) == null ? void 0 : _b.call(_a);
+  }
+});
+const Html = /* @__PURE__ */ defineComponent({
+  // eslint-disable-next-line vue/no-reserved-component-names
+  name: "Html",
+  inheritAttrs: false,
+  props: {
+    ...globalProps,
+    manifest: String,
+    version: String,
+    xmlns: String,
+    renderPriority: [String, Number]
+  },
+  setup: setupForUseMeta((htmlAttrs) => ({ htmlAttrs }), true)
+});
+const Body = /* @__PURE__ */ defineComponent({
+  // eslint-disable-next-line vue/no-reserved-component-names
+  name: "Body",
+  inheritAttrs: false,
+  props: {
+    ...globalProps,
+    renderPriority: [String, Number]
+  },
+  setup: setupForUseMeta((bodyAttrs) => ({ bodyAttrs }), true)
+});
 const _wrapIf = (component, props, slots) => {
   props = props === true ? {} : props;
   return { default: () => {
@@ -3619,7 +3715,7 @@ const _wrapIf = (component, props, slots) => {
   } };
 };
 const layouts = {
-  "home-layout": /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/homeLayout-8eacd35d.mjs').then((m) => m.default || m))
+  "home-layout": /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/homeLayout-ef4013ee.mjs').then((m) => m.default || m))
 };
 const LayoutMetaSymbol = Symbol("layout-meta");
 const __nuxt_component_0 = /* @__PURE__ */ defineComponent({
@@ -3704,7 +3800,7 @@ const generateRouteKey = (routeProps, override) => {
 const wrapInKeepAlive = (props, children) => {
   return { default: () => children };
 };
-const __nuxt_component_1 = /* @__PURE__ */ defineComponent({
+const __nuxt_component_4 = /* @__PURE__ */ defineComponent({
   name: "NuxtPage",
   inheritAttrs: false,
   props: {
@@ -3810,15 +3906,79 @@ const _export_sfc = (sfc, props) => {
 };
 const _sfc_main$2 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
+  const _component_Html = Html;
+  const _component_Head = Head;
+  const _component_Body = Body;
   const _component_NuxtLayout = __nuxt_component_0;
-  const _component_NuxtPage = __nuxt_component_1;
-  _push(ssrRenderComponent(_component_NuxtLayout, _attrs, {
+  const _component_NuxtPage = __nuxt_component_4;
+  _push(ssrRenderComponent(_component_Html, _attrs, {
     default: withCtx((_, _push2, _parent2, _scopeId) => {
       if (_push2) {
-        _push2(ssrRenderComponent(_component_NuxtPage, null, null, _parent2, _scopeId));
+        _push2(ssrRenderComponent(_component_Head, null, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(`<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/satoshi"${_scopeId2}>`);
+            } else {
+              return [
+                createVNode("link", {
+                  rel: "stylesheet",
+                  href: "https://fonts.cdnfonts.com/css/satoshi"
+                })
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
+        _push2(ssrRenderComponent(_component_Body, { class: "font-satoshi" }, {
+          default: withCtx((_2, _push3, _parent3, _scopeId2) => {
+            if (_push3) {
+              _push3(ssrRenderComponent(_component_NuxtLayout, null, {
+                default: withCtx((_3, _push4, _parent4, _scopeId3) => {
+                  if (_push4) {
+                    _push4(ssrRenderComponent(_component_NuxtPage, null, null, _parent4, _scopeId3));
+                  } else {
+                    return [
+                      createVNode(_component_NuxtPage)
+                    ];
+                  }
+                }),
+                _: 1
+              }, _parent3, _scopeId2));
+            } else {
+              return [
+                createVNode(_component_NuxtLayout, null, {
+                  default: withCtx(() => [
+                    createVNode(_component_NuxtPage)
+                  ]),
+                  _: 1
+                })
+              ];
+            }
+          }),
+          _: 1
+        }, _parent2, _scopeId));
       } else {
         return [
-          createVNode(_component_NuxtPage)
+          createVNode(_component_Head, null, {
+            default: withCtx(() => [
+              createVNode("link", {
+                rel: "stylesheet",
+                href: "https://fonts.cdnfonts.com/css/satoshi"
+              })
+            ]),
+            _: 1
+          }),
+          createVNode(_component_Body, { class: "font-satoshi" }, {
+            default: withCtx(() => [
+              createVNode(_component_NuxtLayout, null, {
+                default: withCtx(() => [
+                  createVNode(_component_NuxtPage)
+                ]),
+                _: 1
+              })
+            ]),
+            _: 1
+          })
         ];
       }
     }),
@@ -3853,8 +4013,8 @@ const _sfc_main$1 = {
     const statusMessage = _error.statusMessage ?? (is404 ? "Page Not Found" : "Internal Server Error");
     const description = _error.message || _error.toString();
     const stack = void 0;
-    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-f56c08ac.mjs').then((r) => r.default || r));
-    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-6b96234e.mjs').then((r) => r.default || r));
+    const _Error404 = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-404-80d0e2d0.mjs').then((r) => r.default || r));
+    const _Error = /* @__PURE__ */ defineAsyncComponent(() => import('./_nuxt/error-500-6ae3d565.mjs').then((r) => r.default || r));
     const ErrorTemplate = is404 ? _Error404 : _Error;
     return (_ctx, _push, _parent, _attrs) => {
       _push(ssrRenderComponent(unref(ErrorTemplate), mergeProps({ statusCode: unref(statusCode), statusMessage: unref(statusMessage), description: unref(description), stack: unref(stack) }, _attrs), null, _parent));
@@ -3939,5 +4099,5 @@ let entry;
 }
 const entry$1 = (ctx) => entry(ctx);
 
-export { _export_sfc as _, useState as a, useNuxtApp as b, createError as c, __nuxt_component_0 as d, entry$1 as default, useRouter as e, navigateTo as n, useHead as u };
+export { _export_sfc as _, useRouter as a, useState as b, createError as c, useNuxtApp as d, entry$1 as default, __nuxt_component_0 as e, navigateTo as n, useHead as u };
 //# sourceMappingURL=server.mjs.map

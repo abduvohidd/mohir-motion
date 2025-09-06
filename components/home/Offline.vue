@@ -21,9 +21,6 @@
             <p>- 5 ta maxsus master-klass (ustozlar ishtirokida jonli o‘tiladi)</p>
             <p>- ONLINE KURS — bepul taqdim etiladi!</p>
             <p>
-              - Eng yaxshi natija ko‘rsatgan o‘quvchiga kurs to‘lovi 100% qaytariladi! 🎁
-            </p>
-            <p>
               - Eng yaxshi natija ko‘rsatgan o‘quvchiga kurs to‘lovi 100% qaytariladi!
             </p>
           </div>

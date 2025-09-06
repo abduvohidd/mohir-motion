@@ -353,7 +353,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/form-0a6aa14e.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/form-9c3d3a10.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.name) ?? "index",
@@ -361,7 +361,7 @@ const _routes = [
     meta: __nuxt_page_meta$2 || {},
     alias: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.alias) || [],
     redirect: (__nuxt_page_meta$2 == null ? void 0 : __nuxt_page_meta$2.redirect) || void 0,
-    component: () => import('./_nuxt/index-c6180a12.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/index-5da380cb.mjs').then((m) => m.default || m)
   },
   {
     name: "mundarija",
@@ -369,7 +369,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/mundarija-9c26ec6a.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/mundarija-71a72d0d.mjs').then((m) => m.default || m)
   },
   {
     name: "not-found",
@@ -385,7 +385,7 @@ const _routes = [
     meta: __nuxt_page_meta$1 || {},
     alias: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.alias) || [],
     redirect: (__nuxt_page_meta$1 == null ? void 0 : __nuxt_page_meta$1.redirect) || void 0,
-    component: () => import('./_nuxt/offline-f91b02a4.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/offline-efc8f750.mjs').then((m) => m.default || m)
   },
   {
     name: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.name) ?? "online",
@@ -393,7 +393,7 @@ const _routes = [
     meta: __nuxt_page_meta || {},
     alias: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.alias) || [],
     redirect: (__nuxt_page_meta == null ? void 0 : __nuxt_page_meta.redirect) || void 0,
-    component: () => import('./_nuxt/online-11af1b23.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/online-d5e5c2c6.mjs').then((m) => m.default || m)
   },
   {
     name: "premium",
@@ -401,7 +401,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/premium-11a51462.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/premium-70cfb6d6.mjs').then((m) => m.default || m)
   },
   {
     name: "vip",
@@ -409,7 +409,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0,
-    component: () => import('./_nuxt/vip-0a52ca38.mjs').then((m) => m.default || m)
+    component: () => import('./_nuxt/vip-85253e1a.mjs').then((m) => m.default || m)
   }
 ];
 const appPageTransition = { "name": "page", "mode": "out-in" };

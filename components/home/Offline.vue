@@ -16,6 +16,13 @@
           >
             <p>- After Effects (0 dan mukammal darajagacha)</p>
             <p>- Blender bo‘yicha boshlang‘ich darsliklar</p>
+            <p>- Amaliy loyihalar ustida ishlash</p>
+            <p>- Eng kerakli plug-inlar bilan ishlash bo‘yicha master-klass</p>
+            <p>- 5 ta maxsus master-klass (ustozlar ishtirokida jonli o‘tiladi)</p>
+            <p>- ONLINE KURS — bepul taqdim etiladi!</p>
+            <p>
+              - Eng yaxshi natija ko‘rsatgan o‘quvchiga kurs to‘lovi 100% qaytariladi! 🎁
+            </p>
             <p>
               - Eng yaxshi natija ko‘rsatgan o‘quvchiga kurs to‘lovi 100% qaytariladi!
             </p>

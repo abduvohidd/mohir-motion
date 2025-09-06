@@ -1,1 +1,0 @@
-import{_ as a,o,c as s,b as n,w as c,a as _,Q as r,R as l}from"./entry.402a3774.js";const d={},u={class:"flex-1"};function f(e,m){const t=l;return o(),s("div",null,[n(t,{name:"default"},{default:c(()=>[_("main",u,[r(e.$slots,"default")])]),_:3})])}const p=a(d,[["render",f]]);export{p as default};

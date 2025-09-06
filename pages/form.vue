@@ -67,7 +67,7 @@ const sendForm = async () => {
         <h2 class="text-2xl font-bold text-center mb-4 text-white">Ma'lumot qoldirish</h2>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-200">Ism</label>
+          <label class="block mb-1 font-medium text-white">Ism</label>
           <input
             v-model="name"
             type="text"
@@ -79,7 +79,7 @@ const sendForm = async () => {
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-200">Familiya</label>
+          <label class="block mb-1 font-medium text-white">Familiya</label>
           <input
             v-model="surname"
             type="text"
@@ -91,7 +91,7 @@ const sendForm = async () => {
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-200"
+          <label class="block mb-1 font-medium text-white"
             >Oldin After Effectsda ishlaganmisiz?</label
           >
           <select
@@ -104,7 +104,7 @@ const sendForm = async () => {
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-200">Telefon raqam</label>
+          <label class="block mb-1 font-medium text-white">Telefon raqam</label>
           <input
             v-model="phone"
             type="tel"
@@ -117,7 +117,7 @@ const sendForm = async () => {
         </div>
 
         <div>
-          <label class="block mb-1 font-medium text-gray-200">Yoshingiz</label>
+          <label class="block mb-1 font-medium text-white">Yoshingiz</label>
           <input
             v-model="age"
             type="number"

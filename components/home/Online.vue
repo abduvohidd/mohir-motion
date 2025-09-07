@@ -108,8 +108,8 @@
           </ul>
 
           <div class="bg-gray-900/60 backdrop-blur-md px-6 pb-4 text-center">
-            <p class="text-gray-400 line-through">2.497.000 so‘m</p>
-            <p class="text-2xl font-bold text-green-400">1.497.000 so‘m</p>
+            <p class="text-gray-400 line-through">2.997.000 so‘m</p>
+            <p class="text-2xl font-bold text-green-400">1.997.000 so‘m</p>
           </div>
 
           <div class="flex justify-center bg-gray-900/60 backdrop-blur-md pb-6">

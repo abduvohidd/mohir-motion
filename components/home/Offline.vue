@@ -71,12 +71,14 @@
           </div>
 
           <div class="flex justify-center bg-gray-900/70 backdrop-blur-md py-6 sm:py-8">
-            <NuxtLink
-              to="/form"
+            <a
+              href="https://t.me/bahodirvc1"
+              target="_blank"
+              rel="noopener noreferrer"
               class="px-6 sm:px-8 py-2 sm:py-3 rounded-full border-2 border-red-400 text-white text-base sm:text-lg font-semibold hover:bg-red-500 hover:text-white transition-all"
             >
-              Malumot qoldirish
-            </NuxtLink>
+              Bog'lanish uchun
+            </a>
           </div>
         </div>
       </div>
